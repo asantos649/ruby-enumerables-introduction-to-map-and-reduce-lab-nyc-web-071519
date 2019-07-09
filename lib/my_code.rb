@@ -23,17 +23,7 @@ end
 def map_to_squared(source_array)
   count=0 
   while count < source_array.length do
-    source_array[count] **= 2 
-    count += 1
-  end
-  source_array
-end
-
-def reduce_to_total (source_array)
-  count=0
-  total = 0
-  while count < source_array.length do
-    total += source_array[count]
+    source_array[count] = source_array[count]**2 
     count += 1
   end
   source_array
