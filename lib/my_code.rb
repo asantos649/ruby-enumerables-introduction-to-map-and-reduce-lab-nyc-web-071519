@@ -20,7 +20,7 @@ def map_to_double(source_array)
   source_array
 end
 
-def map_to_squared(source_array)
+def map_to_square(source_array)
   count=0 
   while count < source_array.length do
     source_array[count] = source_array[count]**2 
