@@ -4,4 +4,5 @@ def map_to_negativize(source_array)
     source_array[count] *= -1
     count += 1
   end
+  source_array
 end
